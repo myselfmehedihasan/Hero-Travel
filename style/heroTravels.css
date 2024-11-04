@@ -1,0 +1,195 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Mulish:ital,wght@0,200..1000;1,200..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+:root {
+    --primary-color: #FF5400;
+}
+
+* {
+    font-family: "Mulish", sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+nav {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.nav-title {
+    min-height: 40px;
+    display: flex;
+    align-items: center;
+    width: 50%;
+    /* border: 2px solid red; */
+}
+
+.nav-title img {
+    width: 45px;
+    object-fit: cover;
+}
+
+.nav-title h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-title .special {
+    color: var(--primary-color);
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.nav-element {
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.nav-element a {
+    text-decoration: none;
+    color: #424247;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+/* Hover effect */
+.nav-element:hover {
+
+    color: #424247;
+}
+
+.nav-element a:hover {
+    color: var(--primary-color)
+}
+
+.banner {
+    max-width: 1200px;
+    margin: 50px auto 0 auto;
+    background:
+        linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%),
+        /* Your specified linear gradient */
+        url('../Images/banner.png');
+    border-radius: 16px;
+    height: 500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.banner-title {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.banner-title h2 {
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+}
+
+.banner-description {
+    margin-top: -30px;
+    text-align: center;
+}
+
+.banner-description p {
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-bottom: 24px;
+}
+
+/* .search-form{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    gap: 24px;
+} */
+
+/* Form container styling */
+.search-form {
+    margin: 0 auto;
+    max-width: 800px;
+    display: flex;
+    background-color: rgba(189, 189, 189, 0.473);
+    padding: 16px;
+    border-radius: 8px;
+    gap: 24px;
+    box-shadow: 0 4px 8px rgba(255, 255, 255, 0.30);
+}
+
+
+/* .search-form input, .search-form select {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    flex: 1;
+  } */
+
+
+
+.search-form input,
+.search-form select {
+    width: 174px;
+    height: 52px;
+    /* margin-right: 10px; */
+    padding: 0 10px;
+    box-sizing: border-box;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    flex: 1;
+}
+
+
+/* Styling for the button */
+.search-form button {
+    width: 174px;
+    /* Set the width of input and select elements */
+    height: 52px;
+    background-color: var(--primary-color);
+    color: white;
+    border: none;
+    padding: 12px 16px;
+    font-size: 16px;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.search-form button:hover {
+    background-color: #e64a19;
+}
+
+.search-form input::placeholder {
+    color: rgba(19, 19, 24, 0.50);
+    /* text-align: center; */
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+
+.search-form select{
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
