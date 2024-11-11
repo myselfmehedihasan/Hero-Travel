@@ -315,7 +315,7 @@ nav {
 
 }
 
-.maldives p{
+.maldives p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -332,7 +332,7 @@ nav {
 }
 
 
-.indonesia p{
+.indonesia p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -348,7 +348,7 @@ nav {
 
 }
 
-.srilanka p{
+.srilanka p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -363,7 +363,7 @@ nav {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/NorthAmerica.png') lightgray 50% / cover no-repeat;
 }
 
-.northAmerica p{
+.northAmerica p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -378,7 +378,7 @@ nav {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/kashmir.png') lightgray 50% / cover no-repeat;
 }
 
-.kashmir p{
+.kashmir p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -398,7 +398,7 @@ nav {
     background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/bangladesh.png') lightgray 50% / cover no-repeat;
 }
 
-.bangladesh p{
+.bangladesh p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -416,7 +416,7 @@ nav {
 
 }
 
-.bandarban p{
+.bandarban p {
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
@@ -426,3 +426,222 @@ nav {
 
 
 /* Choose Your Destination styles ends here */
+
+
+.service-container {
+    margin-top: 100px;
+    /* border: 2px solid red; */
+}
+
+.service-content {
+    /* */
+    /* border: 2px solid blue; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service-content h2 {
+    color: #131318;
+
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.service-content p {
+    margin-top: -20px;
+    color: rgba(19, 19, 24, 0.70);
+    width: 650px;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    padding-top: -10px;
+}
+
+.service-grid {
+    margin-top: 10px;
+    /* border: 1px solid rgb(205, 25, 8); */
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.grid-item-1 {
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    width: 520px;
+    height: 250px;
+    padding: 32px 70px 0 20px;
+    grid-column: 0 /span 5;
+    grid-row: 1 /span 1;
+
+}
+
+.grid-item-2 {
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    width: 520px;
+    height: 250px;
+    padding: 32px 20px 0 20px;
+    grid-column: 2 /span 1;
+    grid-row: 1 /span 1;
+}
+
+.grid-item-3 {
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    width: 520px;
+    height: 250px;
+    padding: 32px 20px 0 20px;
+    grid-column: 1 /span 2;
+    grid-row: 2 /span 1;
+}
+
+.deals-content-summary {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+}
+
+.deals-content-summary h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: -10px;
+}
+
+.deals-content-summary p {
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 630px;
+    margin-top: 0;
+}
+
+.deals1 {
+    border-radius: 16px;
+    background: url('../Images/deals1.png') lightgray 50% / cover no-repeat;
+    width: 1170px;
+    height: 580px;
+    position: relative;
+    margin-bottom: 24px;
+}
+
+
+
+.deals-content {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 350px;
+    position: absolute;
+    top: 85px;
+    bottom: 55px;
+    right: 55px;
+    padding: 40px 50px 30px;
+}
+
+.deals-content-review {
+    display: flex;
+    gap: 24px;
+
+}
+
+.deals-content-details h3 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.deals-content-details p {
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+    width: 500px;
+    margin-bottom: 16px 0 25px;
+}
+
+#default-color {
+    color: #FF5400;
+    font-family: Mulish;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+
+
+.deals2 {
+    margin-bottom: 24px;
+    border-radius: 16px;
+    background: url('../Images/deals2.png') lightgray 50% / cover no-repeat;
+    width: 1170px;
+    height: 580px;
+    position: relative;
+}
+
+.deals2-content {
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    background: rgba(255, 255, 255, 0.80);
+    backdrop-filter: blur(2.5px);
+    width: 579px;
+    height: 350px;
+    position: absolute;
+    top: 85px;
+    bottom: 55px;
+    left: 55px;
+    padding: 40px 50px 30px;
+}
+
+.deals3 {
+    margin-bottom: 24px;
+    border-radius: 16px;
+    background: url('../Images/deals1.png') lightgray 50% / cover no-repeat;
+    width: 1170px;
+    height: 580px;
+    position: relative;
+}
+
+.see-all-packages {
+    display: flex;
+    /* Use flexbox for alignment */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically if needed */
+    margin-top: 35px;
+    /* Optional: Add space above the button */
+    width: 100%;
+    /* Make the div take full width */
+}
