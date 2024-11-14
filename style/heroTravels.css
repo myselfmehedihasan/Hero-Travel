@@ -646,3 +646,80 @@ nav {
     width: 100%;
     /* Make the div take full width */
 }
+
+
+/* A Simple Perfect Place To Get Lost starts here */
+
+.simple-container {
+    margin-top: 90px;
+    display: flex;
+    gap: 28px;
+    justify-content: center;
+    align-items: center;
+}
+
+.simple-text {
+    width: 530px;
+    margin-top: -50px;
+}
+
+.simple-text h2 {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 60px;
+    /* 150% */
+    width: 448px;
+}
+
+.simple-text p {
+    margin-top: -20px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px;
+}
+
+
+.simple-text li {
+    color: #131318;
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 26px;
+    margin-bottom: 16px;
+}
+
+.simple-text button{
+    margin-top: 16px ;
+}
+
+.simple-video {
+    border-radius: 16px;
+    background-image: url('../Images/video.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 610px;
+    height: 424px;
+}
+
+.simple-video p {
+    display: block;
+    text-align: center;
+    justify-self: center;
+    padding-top: 28%;
+    /* border: 1px solid red; */
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 36px;
+    /* 150% */
+    width: 276px;
+}
