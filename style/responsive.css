@@ -1,0 +1,82 @@
+@media screen and (max-width : 576px) {
+    nav {
+        width: 375px;
+        flex-direction: column;
+    }
+
+    .nav-title {
+        width: 100%;
+        justify-content: center;
+    }
+
+    .nav-title h2 {
+        color: #131318;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .nav-title .special {
+        color: #FF5400;
+        font-family: Mulish;
+        font-size: 21.543px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+    }
+
+    .nav-element {
+        width: 100%;
+    }
+
+    .banner-title {
+        padding-top: 30px;
+    }
+
+    .banner-title h2 {
+        color: #FFF;
+        font-family: Mulish;
+        font-size: 22px;
+        font-style: normal;
+        font-weight: 800;
+        line-height: normal;
+        padding-bottom: 10px;
+    }
+
+    .banner-description p {
+        color: #FFF;
+        text-align: center;
+        font-family: Mulish;
+        font-size: 14px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 21px;
+        width: 304px;
+        margin: 0 auto;
+
+    }
+
+
+
+
+    .search-form {
+        width: 287px;
+        padding: 16px;
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 16px;
+    }
+
+    .search-form input,
+    .search-form select , .search-form button {
+        width: 255px;
+        height: 52px;
+        margin: 0 auto;
+        padding: 10px;
+        border: none;
+        border-radius: 5px;
+        flex: 0;
+    }
+}
