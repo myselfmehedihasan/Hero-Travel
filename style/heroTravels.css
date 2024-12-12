@@ -135,7 +135,7 @@ nav {
 
 /* Form container styling */
 .search-form {
-    border: 5px solid red;
+    /* border: 5px solid red; */
     margin: 0 auto;
     max-width: 800px;
     display: flex;
@@ -200,6 +200,7 @@ nav {
     line-height: normal;
 }
 
+/* shared styles */
 .container {
     margin: 70px auto;
     max-width: 1200px;
@@ -278,12 +279,14 @@ nav {
 
 .destination-description {
     text-align: center;
+    margin: 0 auto;
+    max-width: 600px;
 
 }
 
 .destination-description p {
     color: rgba(19, 19, 24, 0.70);
-    text-align: center;
+    /* text-align: center; */
     font-family: Mulish;
     font-size: 16px;
     font-style: normal;
@@ -292,132 +295,71 @@ nav {
     text-overflow: ellipsis;
 }
 
-.destination-grid {
+.gallery{
+    padding: 30px;
     display: grid;
-    grid-template-columns: repeat(12, 1fr);
-    grid-template-rows: repeat(6, 1fr);
-    gap: 25px;
-    /* border: 2px solid red; */
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    grid-template-columns: repeat(12,1fr);
+    grid-template-rows: repeat(3,1fr);
+}
 
+.gallery img{
+    width: 100%;
+    height: 100%;
+    border-radius: 18px;
+}
+
+.item {
+    position: relative;
+    height: 300px;
+    text-align: center;
+}
+
+.item-1{
+    grid-column: auto/span 6;
+}
+
+.item-2{
+    grid-column: auto/span 6;
+}
+
+.item-3{
+    grid-column: auto/span 4;
+}
+.item-4{
+    grid-column: auto/span 5;
+}
+.item-5{
+    grid-column: auto/span 3;
+}
+.item-6{
+    grid-column: auto/span 5;
+}
+.item-7{
+    grid-column: auto/span 7;
 }
 
 
-.maldives {
-    grid-column: 1 / span 6;
-    grid-row: 1 / span 2;
-    background: url('../Images/maldives.png');
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/maldives.png') lightgray 50% / cover no-repeat;
-
-}
-
-.maldives p {
+.text-above {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    /* background-color: rgba(0, 0, 0, 0.24); */
+    width: 100%;
+    height: 100%;
     color: #FFF;
     font-family: Mulish;
     font-size: 28px;
     font-weight: 800;
-    margin: 132px 226px;
-}
-
-
-.indonesia {
-    grid-column: 7 / span 6;
-    grid-row: 1 / span 2;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/indonesia.png') lightgray 50% / cover no-repeat;
-}
-
-
-.indonesia p {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 132px 226px;
-}
-
-.srilanka {
-    grid-column: 1 / span 4;
-    grid-row: 3 / span 2;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/srilanka.png') lightgray 50% / cover no-repeat;
-
-}
-
-.srilanka p {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 130px 130px;
-}
-
-.northAmerica {
-    grid-column: 5 / span 5;
-    grid-row: 3 / span 2;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/NorthAmerica.png') lightgray 50% / cover no-repeat;
-}
-
-.northAmerica p {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 130px 137px;
-}
-
-.kashmir {
-    grid-column: 10 / span 3;
-    grid-row: 3 / span 2;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/kashmir.png') lightgray 50% / cover no-repeat;
-}
-
-.kashmir p {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 130px 81px;
-}
-
-
-.bangladesh {
-    grid-column: 1 / span 5;
-    grid-row: 5 / span 2;
-    /* background: url('../Images/bangladesh.png');
-    object-fit: contain;
-    width: 473px;
-    height: 300px; */
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/bangladesh.png') lightgray 50% / cover no-repeat;
-}
-
-.bangladesh p {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 130px 156px;
-}
-
-
-.bandarban {
-    grid-column: 6 / span 7;
-    grid-row: 5 / span 2;
-    background-image: url('../Images/bandarban.png');
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%), url('../Images/bandarban.png') lightgray 50% / cover no-repeat;
-
-}
-
-.bandarban p {
-    color: #FFF;
-    font-family: Mulish;
-    font-size: 28px;
-    font-weight: 800;
-    margin: 130px 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+    overflow: hidden;
+    cursor: pointer;
 }
 
 
@@ -478,7 +420,7 @@ nav {
     background: rgba(251, 181, 99, 0.05);
     width: 520px;
     height: 250px;
-    padding: 32px 70px 0 20px;
+    padding: 32px 20px 0 20px;
     grid-column: 0 /span 5;
     grid-row: 1 /span 1;
 
